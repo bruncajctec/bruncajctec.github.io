@@ -1,0 +1,113 @@
+
+/* glogal */
+body {
+  width: 80%;
+}
+
+/* navbar */
+/* logo */
+#ar-logo {
+  width: 60px;
+  height: auto;
+}
+
+/* navbar links */
+
+a.nav-link {
+  color: $black-shade1 !important;
+}
+
+a.nav-link:hover {
+  color: $black-shade4 !important;
+}
+
+#search-input {
+  color: $black-shade1 !important;
+}
+
+#search {
+  color: $black-shade1 !important;
+  border-color: $black-shade1 !important;
+}
+
+#search:hover {
+  color: $black-shade4 !important;
+  border-color: $black-shade1;
+  background-color: $black-shade2;
+}
+
+/* content */
+
+.content-container {
+  width: 95%;
+  position: relative;
+  bottom: 10vh;
+  color: $black-shade1 !important;
+}
+
+/* blog page content */
+.blog-header {
+  background-color: $black-shade1;
+  color: $black-shade4;
+  font-family: "Ubuntu", "sans-serif";
+  font-weight: 700;
+  letter-spacing: .13em;
+  line-height: 1.8;
+  font-size: 1.3em;
+}
+
+ul.posts {
+  padding-inline-start: 0;
+}
+
+ul.posts li {
+  list-style: none;
+  padding: 25px;
+  margin-bottom: 12px;
+}
+
+.post-title {
+  font-size: 1.5em;
+  color: $brand-color;
+}
+
+.post-date {
+  font-size: .9em;
+  color: $black-shade3;
+  font-weight: lighter;
+
+}
+
+/* contact page */
+
+.icon-social a {
+  font-size: 4em;
+  color: $black-shade4;
+}
+
+.icon-social a:hover {
+  color: $black-shade2;
+}
+
+
+/* footer */
+.page-footer {
+  font-size: .8rem;
+  line-height: 1.2;
+  color: $black-shade1;
+  background-color: $white-color;
+}
+
+.page-footer a {
+  color: $black-shade2;
+}
+
+.page-footer a:hover {
+  color: $black-shade4;
+}
+
+.footer-copyright {
+  width: 75%;
+}
+
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+{% include head.html %}
+
+<body class="mx-auto">
+
+<div>
+	
+	{% include header.html %}
+	
+	<div class="p-5 mx-auto content-container">
+    {{ content }}
+  </div>
+	
+	{% include footer.html %}
+
+</div>
+
+{% include scripts.html%}
+</body>

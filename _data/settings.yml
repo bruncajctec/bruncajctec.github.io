@@ -1,0 +1,33 @@
+# Change 'comments' to true for Disqus comments
+#disqus:
+  #comments: false
+  #disqus_shortname: ''
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+#google-ID: ''
+
+menu:
+- {name: 'About', folder: 'pages', file: 'about.html'}
+- {name: 'Dictionary', folder: 'pages', file: 'dictionary.html'}
+- {name: 'Grammar', folder: 'pages', file: 'grammar.html'}
+- {name: 'Resources', folder: 'pages', file: 'resources.html'}
+
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'fab fa-twitter', link: 'https://twitter.com/aroblesfuentes'}
+- {icon: 'fas fa-envelope', link: 'mailto:aroblesfuentescrc@gmail.com'}
+- {icon: 'fab fa-linkedin-in', link: 'https://www.linkedin.com/in/aroblesfuentes/'}
+#- {icon: 'fas fa-rss', link: 'feed.xml'}
+# - {icon: 'rss-square', link: 'rss-feed.xml'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy...'
+
+post_date_prefix: 'Written on'

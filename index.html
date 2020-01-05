@@ -1,0 +1,31 @@
+---
+layout: default
+title: Adrian Robles
+---
+
+	<h1>Hi there, I'm Adrian Robles!</h1>
+	<hr>
+
+	<h2>Technologies & Tools</h2>
+	<hr>
+
+	<div class="icon-container">
+		
+	</div>
+
+	<ul>
+		{% for item in site.data.settings.technologies %}
+		<li class="tech-item">
+			<img src="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" alt="">
+			<p>{{ item.name }}</p>
+		</li>
+		{% endfor %}	
+	</ul>
+
+	<h2>I have collaborated with these companies</h2>
+	IBM
+	Convergys
+	Auxis
+	Lonza
+	Tek-Experts
+	<hr>

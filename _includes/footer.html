@@ -1,0 +1,19 @@
+<footer class="page-footer mx-auto fixed-bottom">
+
+  <!-- footer icons -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 pt-2">
+        <div class="mx-2 d-flex justify-content-center">
+            {% for item in site.data.settings.social %}
+            <a href="{{ item.link }}" target="_blank"><i class="{{ item.icon }} mr-5" aria-hidden="true"></i></a>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div><!-- end of footer icons-->
+  <hr>
+
+  <div class="footer-copyright text-center mb-2 mx-auto">{{ site.description }} | Coded by <a href="#">{{ site.author }}</a></div>
+
+</footer>
