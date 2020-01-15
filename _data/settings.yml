@@ -7,11 +7,16 @@
 #google-ID: ''
 
 menu:
-- {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Dictionary', folder: 'pages', file: 'dictionary.html'}
-- {name: 'Grammar', folder: 'pages', file: 'grammar.html'}
-- {name: 'Resources', folder: 'pages', file: 'resources.html'}
+- {name: "Acerca", folder: 'pages', file: 'about.html'}
+- {name: "Diccionario", folder: 'pages', file: 'dictionary.html'}
+- {name: "Gramática", folder: 'pages', file: 'grammar.html'}
+- {name: "Recursos", folder: 'pages', file: 'resources.html'}
 
+menuBr:
+- {name: "Cá", folder: 'pages', file: 'about.html'}
+- {name: "Ó'c téc rójc", folder: 'pages', file: 'dictionary.html'}
+- {name: "Téc igui yén'", folder: 'pages', file: 'grammar.html'}
+- {name: "Shíscrahuá rójc", folder: 'pages', file: 'resources.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:

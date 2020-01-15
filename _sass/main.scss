@@ -1,20 +1,41 @@
 
-/* glogal */
+/****************** FONTS ****************/
+
+@font-face {
+  font-family: 'beach_resort';
+  src: url('/assets/fonts/beach_resort-webfont.woff2') format('woff2'),
+       url('/assets/fonts/beach_resort-webfont.woff') format('woff'),
+       url('/assets/fonts/beach_resort.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/****************** GLOBAL ****************/
+
+* {
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
   width: 80%;
 }
 
-/* navbar */
-/* logo */
-#ar-logo {
-  width: 60px;
+
+/****************** NAVBAR ****************/
+/* LOGO */
+#logo {
+  width: 90px;
   height: auto;
 }
 
-/* navbar links */
+/* NAVBAR */
 
 a.nav-link {
   color: $black-shade1 !important;
+  font-size: 1.4em;
+  letter-spacing: 0.08em;
 }
 
 a.nav-link:hover {
@@ -36,7 +57,7 @@ a.nav-link:hover {
   background-color: $black-shade2;
 }
 
-/* content */
+/****************** MAIN CONTENT ****************/
 
 .content-container {
   width: 95%;
@@ -45,52 +66,175 @@ a.nav-link:hover {
   color: $black-shade1 !important;
 }
 
-/* blog page content */
-.blog-header {
-  background-color: $black-shade1;
-  color: $black-shade4;
-  font-family: "Ubuntu", "sans-serif";
-  font-weight: 700;
-  letter-spacing: .13em;
-  line-height: 1.8;
-  font-size: 1.3em;
+.content-container h1 {
+  font-size: 2.5em;
+  letter-spacing: 0.03em;
+  color: gray;
+  display: inline;
+  font-weight: 800;
+  margin-right: 15px;
 }
 
-ul.posts {
-  padding-inline-start: 0;
+span.espGlosh1 {
+  font-size: 1.6em;
+  letter-spacing: 0.01em;
+  color: gray;
 }
 
-ul.posts li {
-  list-style: none;
-  padding: 25px;
-  margin-bottom: 12px;
+.content-container p {
+  font-size: 1.4em;
+  letter-spacing: 0.03em;
+  color: gray;
 }
 
-.post-title {
+/****************** HOME PAGE ****************/
+
+.box {
+  border: 1px solid red;
+}
+
+
+/* RANDOM */
+.rndm {
+  border: 1px solid purple;
+  height: 285px;
+}
+
+.rndmImg {
+  width: 45%;
+  float: left;
+}
+
+#rndmImg {
+  width: 280px;
+  height: auto;
+}
+
+.rndmText {
+  float: right;
+  width: 50%;
+}
+
+.rndmText h3 {
+  
+}
+
+
+/* BASICS */
+.bscs {
+  border: 1px solid orange;
+  height: 285px;
+}
+
+
+/* COLLAB */
+.collab {
+  border: 1px solid hotpink;
+  height: 285px;
+}
+
+/****************** DICTIONARY PAGE ****************/
+.wrapper {
+  padding: 10px;
+  height: 50vh;
+}
+
+.wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* SEARCH */
+#search {
+  margin-left: 10px;
+  width: 70%;
+  padding: 5px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+/* WORD LIST */
+
+.words {
+  width: 32%;
+  float: left;
+}
+
+.word {
+  width: 68%;
+  float: left;
+  padding-left: 10px;
+}
+
+#word_list {
+  max-height: 250px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+#word_list li {
+  list-style-type: none;
+  line-height: 1.4em;
+  margin-left: -30px;
+}
+
+#word_list li:hover {
+  cursor: pointer;
+  color: purple;
+}
+
+#word_list::-webkit-scrollbar {
+  display: none;
+}
+
+/* WORD DISPLAY */
+
+#word_text {
   font-size: 1.5em;
-  color: $brand-color;
+  letter-spacing: .04em;
+  margin-right: 10px;
+  font-weight: 700;
+  color: gray;
 }
 
-.post-date {
-  font-size: .9em;
-  color: $black-shade3;
-  font-weight: lighter;
-
+#br {
+  font-size: 1.7em;
+  color: gray;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: .04em;
+  display: inline;
 }
 
-/* contact page */
-
-.icon-social a {
-  font-size: 4em;
-  color: $black-shade4;
+#pos {
+  font-style: italic;
+  font-size: .8em;
 }
 
-.icon-social a:hover {
-  color: $black-shade2;
+#pron {
+  font-style: italic;
+  font-weight: 600;
+}
+
+#eje {
+  margin: 0;
+  padding: 0;
+}
+
+#eje li {
+  list-style-type: none;
+}
+
+#eje li:first-child {
+  font-style: italic;
+}
+
+#eje li:last-child {
 }
 
 
-/* footer */
+/****************** FOOTER ****************/
 .page-footer {
   font-size: .8rem;
   line-height: 1.2;
