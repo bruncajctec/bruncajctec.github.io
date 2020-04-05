@@ -16227,7 +16227,6 @@ var brDict = [
 	}
 ];
 
-var brDict =
 
 // fill the dictionary
 var init = ""
