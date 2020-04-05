@@ -7,7 +7,7 @@
 #google-ID: ''
 
 menu:
-- {name: "Acerca", folder: 'pages', file: 'about.html'}
+#- {name: "Acerca", folder: 'pages', file: 'about.html'}
 - {name: "Diccionario", folder: 'pages', file: 'dictionary.html'}
 - {name: "Gramática", folder: 'pages', file: 'grammar.html'}
 - {name: "Recursos", folder: 'pages', file: 'resources.html'}

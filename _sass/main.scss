@@ -1,5 +1,5 @@
 
-/****************** FONTS ****************/
+/* fonts */
 
 @font-face {
   font-family: 'beach_resort';
@@ -11,7 +11,7 @@
 
 }
 
-/****************** GLOBAL ****************/
+/* global */
 
 * {
   font-family: 'Fredoka One', cursive;
@@ -19,18 +19,19 @@
 }
 
 body {
-  width: 80%;
+  width: 80vw;
 }
 
 
-/****************** NAVBAR ****************/
-/* LOGO */
+/* navbar */
+
+/* logo */
 #logo {
   width: 90px;
   height: auto;
 }
 
-/* NAVBAR */
+/* nav-links */
 
 a.nav-link {
   color: $black-shade1 !important;
@@ -42,129 +43,21 @@ a.nav-link:hover {
   color: $black-shade4 !important;
 }
 
-#search-input {
-  color: $black-shade1 !important;
-}
 
-#search {
-  color: $black-shade1 !important;
-  border-color: $black-shade1 !important;
-}
+/* home */
 
-#search:hover {
-  color: $black-shade4 !important;
-  border-color: $black-shade1;
-  background-color: $black-shade2;
-}
+/* random word of the day */
 
-/****************** MAIN CONTENT ****************/
-
-.content-container {
-  width: 95%;
-  position: relative;
-  bottom: 10vh;
-  color: $black-shade1 !important;
-}
-
-.content-container h1 {
-  font-size: 2.5em;
-  letter-spacing: 0.03em;
-  color: gray;
-  display: inline;
-  font-weight: 800;
-  margin-right: 15px;
-}
-
-span.espGlosh1 {
-  font-size: 1.6em;
-  letter-spacing: 0.01em;
-  color: gray;
-}
-
-.content-container p {
-  font-size: 1.4em;
-  letter-spacing: 0.03em;
-  color: gray;
-}
-
-/****************** HOME PAGE ****************/
-
-.box {
-  border: 1px solid red;
-}
-
-
-/* RANDOM */
-.rndm {
-  border: 1px solid purple;
-  height: 285px;
-}
-
-.rndmImg {
-  width: 45%;
-  float: left;
-}
 
 #rndmImg {
   width: 280px;
   height: auto;
 }
 
-.rndmText {
-  float: right;
-  width: 50%;
-}
+/* dictionary */
 
-.rndmText h3 {
-  
-}
-
-
-/* BASICS */
-.bscs {
-  border: 1px solid orange;
-  height: 285px;
-}
-
-
-/* COLLAB */
-.collab {
-  border: 1px solid hotpink;
-  height: 285px;
-}
-
-/****************** DICTIONARY PAGE ****************/
-.wrapper {
-  padding: 10px;
-  height: 50vh;
-}
-
-.wrapper::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-/* SEARCH */
-#search {
-  margin-left: 10px;
-  width: 70%;
-  padding: 5px;
-  height: 30px;
-  margin-bottom: 10px;
-}
-
-/* WORD LIST */
-
-.words {
-  width: 32%;
-  float: left;
-}
-
-.word {
-  width: 68%;
-  float: left;
-  padding-left: 10px;
+.dict-wrap {
+  width: 70vw;
 }
 
 #word_list {
@@ -188,53 +81,10 @@ span.espGlosh1 {
   display: none;
 }
 
-/* WORD DISPLAY */
-
-#word_text {
-  font-size: 1.5em;
-  letter-spacing: .04em;
-  margin-right: 10px;
-  font-weight: 700;
-  color: gray;
-}
-
-#br {
-  font-size: 1.7em;
-  color: gray;
-  font-weight: bold;
-  font-style: italic;
-  letter-spacing: .04em;
-  display: inline;
-}
-
-#pos {
-  font-style: italic;
-  font-size: .8em;
-}
-
-#pron {
-  font-style: italic;
-  font-weight: 600;
-}
-
-#eje {
-  margin: 0;
-  padding: 0;
-}
-
-#eje li {
-  list-style-type: none;
-}
-
-#eje li:first-child {
-  font-style: italic;
-}
-
-#eje li:last-child {
-}
 
 
-/****************** FOOTER ****************/
+
+/* footer */
 .page-footer {
   font-size: .8rem;
   line-height: 1.2;
@@ -249,9 +99,3 @@ span.espGlosh1 {
 .page-footer a:hover {
   color: $black-shade4;
 }
-
-.footer-copyright {
-  width: 75%;
-}
-
-

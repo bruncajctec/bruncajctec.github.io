@@ -1,34 +1,4 @@
-var brDict = [
-  {
-    word: "zapato",
-    br: "dsad",
-    pron: "bdf",
-    pos: "verb",
-    eje: ["sdasdasjjh jhjhdas", "La hambruna fue grande", "dashd idjas das"]
-  },
-  {
-    word: "hambre",
-    br: "bri",
-    pron: "bri",
-    pos: "noun",
-    eje: ["Brion qui crie'ra", "La hambruna fue grande", "dashd idjas das"]
-  },
-  {
-    word: "flor",
-    br: "srut",
-    pron: "srut",
-    pos: "noun",
-    eje: ["Srut xi qui", "La florecita"]
-  },
-  {
-    word: "palmera",
-    br: "Ó'c",
-    pron: "o'c",
-    pos: "noun",
-    eje: ["ó'c cuas shan' ishcon", "Periodico"]
-  }
-];
-
+var brDict =
 
 // fill the dictionary
 var init = ""
@@ -100,6 +70,4 @@ search = function () {
 
   }
 }
-
-
 
