@@ -3,21 +3,28 @@ layout: default
 title: Br&uacute;n'cajc T&eacute;c
 ---
 
-<h1>Br&uacute;n'cajc T&eacute;c</h1>
+<h1 class="d-inline">Br&uacute;n'cajc T&eacute;c</h1>
+<span class="espGlosh1 pl-3">Boruca</span>
 <hr>
 
 <div class="container">
 
 	<!-- random word of the day -->
-	<div class="row p-5">
-		<div class="col-md-6">
+	<div class="row p-4">
+		<div class="col-md-4">
 			<img class="img-fluid" id="rndmImg" src="/assets/images/btLogo.png" alt="Máscara Boruca">
 		</div>
-		<div class="col-md-6">
-			<h2>srut</h2>
-			<span class="pron">srut</span>
-			<p>"flor"</p>
-			<ul class="brExample">
+		<div class="col-md-8 py-5">
+			<h3 id="word" class="d-inline font-weight-bold"></h3>
+			<span id="pos" class="font-italic"></span>
+			<div class="row">
+				<div class="col-md-6 mx-auto pt-3">
+					<p id="bri" class="d-inline"></p>
+					<p id="idiom-sep" class="d-inline"></p>
+					<p id="pron" class="d-inline"></p>
+				</div>
+			</div>
+			<ul id="eje" class="list-unstyled mt-4 pt-1">
 			</ul>
 		</div>
 	</div>
@@ -31,8 +38,9 @@ title: Br&uacute;n'cajc T&eacute;c
 		</div>
 		<div class="col-md-6">
 			<ul>
-				<li>dasda</li>
-				<li>dsdas</li>
+				<li><a href="/pages/basics.html/#pron">Guía de Pronunciación</a></li>
+				<li>Saludos</li>
+				<li>Números</li>
 			</ul>
 		</div>
 	</div>
@@ -64,3 +72,5 @@ title: Br&uacute;n'cajc T&eacute;c
 	<hr>
 
 </div>
+
+<script src="assets/scripts/randomWord.js"></script>

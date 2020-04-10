@@ -2,8 +2,8 @@
 layout: default
 title: Diccionario
 ---
-<h1>&Oacute;'c t&eacute;c r&oacute;jc</h1>
-<span class="espGlosh1">Diccionario</span>
+<h1 class="d-inline">&Oacute;'c t&eacute;c r&oacute;jc</h1>
+<span class="espGlosh1 pl-3">Diccionario</span>
 <hr>
 
 <div class="dict-wrap mx-auto">
@@ -13,21 +13,28 @@ title: Diccionario
       <!-- search bar -->
       <input type="text" id="query" placeholder="Search...">
       <button id="searchBtn">Go</button>
-  
-      <!-- word-list -->
+
+      <!-- word-list 
       <ul id="word_list" class="my-2">
-      </ul>
+      </ul>-->
     </div>
+
+
     <div class="col-md-8">
-      <h3 id="word_text"></h3>
-      <p id="br"></p>
-      <span id="pos"></span>
-      <p id="pron"></p>
-      <ul id="eje"></ul>
+      <h3 id="word" class="d-inline font-weight-bold"></h3>
+      <span id="pos" class="font-italic"></span>
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <p id="bri" class="d-inline"></p>
+          <p id="idiom-sep" class="d-inline"></p>
+          <p id="pron" class="d-inline"></p>
+        </div>
+      </div>
+      <ul id="eje" class="list-unstyled mt-4 pt-1">
+      </ul>
     </div>
   </div>
 </div>
 
 
-<script src="/assets/scripts/master.js" type="text/javascript"></script>
-
+<script src="/assets/scripts/dictBrain.js"></script>

@@ -60,28 +60,51 @@ a.nav-link:hover {
   width: 70vw;
 }
 
-#word_list {
-  max-height: 250px;
-  overflow-y: scroll;
-  -ms-overflow-style: none;
+#word {
+  letter-spacing: .12em;
 }
 
-#word_list li {
-  list-style-type: none;
-  line-height: 1.4em;
-  margin-left: -30px;
+#bri {
+  font-size: 2em;
+  text-decoration: underline;
 }
 
-#word_list li:hover {
-  cursor: pointer;
-  color: purple;
+#idiom-sep {
+  font-size: 1.6em;
 }
 
-#word_list::-webkit-scrollbar {
-  display: none;
+/* basics */
+
+/* pronunciation */
+
+#pron-img {
+  display: block;
+  width: 250px;
+  height: auto;
+}
+sup {
+  color: red;
+  font-size: xx-small;
+  font-weight: bolder;
 }
 
+#excep {
+  list-style: none;
+}
 
+#excep li::before {
+  content: counter(li);
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: small;
+}
+
+#excep li {
+  counter-increment: li;
+}
 
 
 /* footer */
