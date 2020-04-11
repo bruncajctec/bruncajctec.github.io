@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+---
+	<div class="blog-header p-2 pt-5">
+		<p>Welcome to my blog, here I post the guides I make when I learn how to do something, these help me trace back my steps and I come back to them when I am doing a similar project. Hopefully, you'll find them useful too!</p>
+	</div>
+
+
+	<ul class="posts">
+			{% for post in site.posts %}
+			<li class="shadow-sm p-2">
+				<a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+				{{ post.excerpt }}
+			</li>
+			{% endfor %}
+	</ul>
+

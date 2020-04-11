@@ -10,7 +10,7 @@ fetch('/assets/scripts/data.json')
     //document.getElementById("br").innerHTML = data[0].bri;
     //end of example code
     const random = data[Math.floor(Math.random() * data.length)];
-    console.log(random.word);
+
 
     // display findings
     document.getElementById("word").innerHTML = random.word;
@@ -25,16 +25,13 @@ fetch('/assets/scripts/data.json')
       list += "<li>" + random.eje[j] + "</li>";
       document.getElementById("eje").innerHTML = list;
     }
-
   })
   .catch(err => {
     // What do when the request fails
     console.log('The request failed!');
   });
 
+function locationreload() {
+  location.reload();
 
-
-
-
-  // toDos
-  //-display random word
+}

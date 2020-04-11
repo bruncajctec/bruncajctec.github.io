@@ -77,3 +77,4 @@ fetch('/assets/scripts/data.json')
 
     // - insensitive search verify accent search
     // - display two results for the same word
+    // - remove eje, when new word has no eje

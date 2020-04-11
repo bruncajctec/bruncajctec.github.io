@@ -54,6 +54,15 @@ a.nav-link:hover {
   height: auto;
 }
 
+.container a {
+  color: $black-shade1 !important;
+  text-decoration: underline !important;
+}
+
+.container a:hover {
+  color: $black-shade4 !important;
+}
+
 /* dictionary */
 
 .dict-wrap {
@@ -79,7 +88,7 @@ a.nav-link:hover {
 
 #pron-img {
   display: block;
-  width: 250px;
+  width: 150px;
   height: auto;
 }
 sup {
@@ -106,6 +115,11 @@ sup {
   counter-increment: li;
 }
 
+
+/* grammar */
+main {
+  border-left: 1px solid gray;
+}
 
 /* footer */
 .page-footer {
